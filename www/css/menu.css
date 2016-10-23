@@ -1,0 +1,23 @@
+#menu.container{
+    min-width:100%;
+    min-height:100%;
+    position: absolute;
+    background: #ddd;
+    float:left;
+    display:block;
+    text-align: center;
+    padding-top:0px;
+
+    background-color: #eee;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-image: -webkit-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd),
+        -webkit-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd);
+    background-image: -moz-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd),
+        -moz-linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd);
+    background-image: linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd),
+        linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd);
+    -pie-background: linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd) 0 0 / 60px,
+        linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd) 30px 30px / 60px,
+        #eee;
+}

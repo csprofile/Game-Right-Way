@@ -1,0 +1,37 @@
+.block{
+    border: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float:left;
+}
+
+.block.disabled-0{
+    background-color:#111111;
+}
+.block.normal-1{
+    background-color:#ddd;
+}
+.block.start-1{
+    background-color:#0074D9;
+}
+
+
+.block.pass-1{
+    background-color:#FFDC00;
+}
+.block.pass-1:after{
+    content:'1';
+}
+.block.pass-2{
+    background-color:#FF851B;
+}
+.block.pass-2:after{
+    content:'2';
+}
+.block.pass-3{
+    background-color:#FF4136;
+}
+.block.pass-3:after{
+    content:'3';
+}

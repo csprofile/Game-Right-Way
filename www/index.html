@@ -1,0 +1,61 @@
+﻿<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/board.css">
+        <link rel="stylesheet" type="text/css" href="css/block.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.hemiIntro.css">
+
+		
+        <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/libs/sweetalert.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.hemiIntro.js"></script>
+
+        <script type="text/javascript" src="js/shared/globals.js"></script>
+        <script type="text/javascript" src="js/shared/util.js"></script>
+        <script type="text/javascript" src="js/shared/levels.js"></script> 
+        <script type="text/javascript" src="js/shared/culture.js"></script> 
+
+        <script type="text/javascript" src="js/components/block.js"></script>
+        
+        <script type="text/javascript" src="js/controllers/panel.js"></script>
+        <script type="text/javascript" src="js/controllers/game.js"></script>
+        <script type="text/javascript" src="js/controllers/tutorial.js"></script>
+        <script type="text/javascript" src="js/controllers/app.js"></script>
+    </head>
+    <body>
+        <div id="menu" class="container">
+            <img src="menu.png"/>
+			<p id="experienceTip"></p>
+            <button type="button" id="play" class="btn btn-primary btn-lg btn-block">Play</button>
+            <!--<button type="button" id="challenge" class="btn btn-primary btn-lg btn-block">2 min Challenge</button>-->
+            <button type="button" id="tutorial" class="btn btn-primary btn-lg btn-block">Tutorial</button>
+        </div>
+        <div id="header">
+            <div class="headerPart">
+                <ul>
+                    <li id="levelLabel">Level:</li>
+                    <li id="levelPH">01</li>
+                </ul>
+            </div>
+            <div class="headerPart">
+                <ul>
+                    <li id="timerLabel">Timer:</li>
+                    <li id="timerPH">00:00</li>
+                </ul></div>
+            <div class="headerPart">
+                <ul>
+                    <li id="scoreLabel">Score:</li>
+                    <li id="scorePH">0</li>
+                </ul>
+            </div>
+        </div>
+        <div id="board">
+        </div>
+    </body>
+</html>
